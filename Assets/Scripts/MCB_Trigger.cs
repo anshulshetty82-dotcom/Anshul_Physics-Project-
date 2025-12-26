@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MCB_Trigger : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // Start is called once before the first execution of Update after the MonoBe
     public GameObject lampone; 
     public GameObject lampTwo; 
 
@@ -23,6 +23,7 @@ public class MCB_Trigger : MonoBehaviour
         {
             Destroy(lampone);
             Destroy(lampTwo);
+        
         }
     }
 }

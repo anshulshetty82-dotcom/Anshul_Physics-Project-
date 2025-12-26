@@ -29,6 +29,7 @@ public class RandomScenePopulator : MonoBehaviour
 
             // Instantiate the object
             Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
+
         }
     }
 }
