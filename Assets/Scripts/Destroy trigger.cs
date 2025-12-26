@@ -20,7 +20,8 @@ public class Destroytrigger : MonoBehaviour
         if(collision.gameObject.CompareTag("Projectile"))
         {
             Destroy(gameObject);
-        }
-        
+        } 
     }
+
+
 }

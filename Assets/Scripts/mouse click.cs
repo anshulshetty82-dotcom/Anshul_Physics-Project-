@@ -13,7 +13,7 @@ public class MouseFollow : MonoBehaviour
     void Update()
     {
         Vector3 pos  = Input.mousePosition; 
-        pos.z = 4f; 
+        pos.z = 50f; 
         transform.position = Camera.main.ScreenToWorldPoint(pos);
   
     }
